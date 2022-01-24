@@ -1,0 +1,99 @@
+
+.design {
+    background-color: #E6563B;
+}
+
+.develop {
+    background-color: #EB9D3A;
+}
+
+.support {
+    background-color: #7CB06C;
+}
+
+.host {
+    background-color: #00ABA9;
+}
+
+p {
+    font-family: "Abel-Regular", sans-serif ;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Anton-Regular", sans-serif;
+}
+.icons {
+    height: 18px;
+    width: 18px;
+}
+
+.logo {
+    height: 105px;
+    width: 105px;
+}
+
+.siteBackground {
+    background-color: #F0F0F0;
+}
+
+.image-borders {
+    background-color: #E6E6E6;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+.topRow {
+    border-top-color: #F0F0F0;
+    border-top-width: 4em;
+    margin-top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.codeup-design {
+    font-size: 28px;
+
+}
+
+.big-circle {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 5px solid white;
+    color: white;
+    font-family: 'Anton-Regular', sans-serif;
+}
+
+.small-circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    font-size: 8px;
+    line-height: 1px;
+    font-family: 'Anton-Regular', sans-serif;
+}
+
+.circle-text {
+    padding-top: 35px;
+    font-size: 18px;
+}
