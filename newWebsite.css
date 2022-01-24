@@ -107,8 +107,24 @@ h5 {
     font-size: 18px;
 }
 
-/*@media screen and (min-width: 768px) {*/
-/*    .navbar {*/
-/*        background-color: #FFFFFF;*/
-/*    }*/
-/*}*/
+ul {
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        justify-content: space-between;
+        align-items: start;
+    }
+    .mt-sm-5 {
+        margin-top: 2.3rem!important;
+    }
+    .firstbreak {
+        margin-left: 4rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .firstbreak {
+        margin-left: 0;
+    }
+}
