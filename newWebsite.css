@@ -15,8 +15,10 @@
     background-color: #00ABA9;
 }
 
-p {
+p, a {
     font-family: "Abel-Regular", sans-serif ;
+    color: #333333;
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -32,7 +34,7 @@ h1, h2, h3, h4, h5 {
     width: 105px;
 }
 
-.siteBackground {
+body{
     background-color: #F0F0F0;
 }
 
@@ -42,14 +44,20 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-size: 64px;
+    font-weight: bolder;
+
 }
 
 h2 {
     font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: -.1rem;
+
 }
 
 h3 {
     font-size: 40px;
+    font-weight: bolder;
 }
 
 h4 {
@@ -70,6 +78,7 @@ h5 {
 
 .codeup-design {
     font-size: 28px;
+    font-family: "Abel-Regular", sans-serif ;
 
 }
 
