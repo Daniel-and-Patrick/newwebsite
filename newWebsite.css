@@ -57,7 +57,7 @@ h2 {
 h3 {
     font-size: 40px;
     font-weight: bolder;
-    letter-spacing: -.1rem;
+    letter-spacing: -.2rem;
 }
 
 h4 {
@@ -113,6 +113,11 @@ ul {
     justify-content: center;
 }
 
+hr {
+    display: none;
+}
+
+
 @media screen and (min-width: 768px) {
     ul {
         justify-content: space-between;
@@ -124,6 +129,16 @@ ul {
     .firstbreak {
         margin-left: 4rem;
     }
+    .big-circle-container {
+        justify-content: space-around!important;
+        width: 70%;
+        margin: auto;
+    }
+    hr {
+        display: inline-block;
+        height: 2px;
+    }
+
 }
 @media screen and (min-width: 992px) {
     .firstbreak {
