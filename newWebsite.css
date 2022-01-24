@@ -51,13 +51,13 @@ h1 {
 h2 {
     font-size: 48px;
     font-weight: bolder;
-    letter-spacing: -.1rem;
 
 }
 
 h3 {
     font-size: 40px;
     font-weight: bolder;
+    letter-spacing: -.1rem;
 }
 
 h4 {
@@ -66,6 +66,8 @@ h4 {
 
 h5 {
     font-size: 28px;
+    letter-spacing: -.1rem;
+    font-weight: bold;
 }
 .topRow {
     border-top-color: #F0F0F0;
