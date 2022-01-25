@@ -171,6 +171,15 @@ hr {
     flex-direction: row;
     margin-bottom: 25px;
 }
+.twitter {
+    height: 30px;
+    width: 30px;
+}
+.twitter-card {
+    background-color: #F0F0F0;
+    border-style: none;
+    flex-direction: row;
+}
 
 @media screen and (min-width: 576px) {
     .secondCard {
