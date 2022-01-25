@@ -143,15 +143,17 @@ hr {
 }
 .card-img-top {
     border: 5px solid #E6E6E6;
+    height: 223px;
 }
 
 .secondCard {
     display: none;
 }
-.secondCard > .card-img-top {
-    height: 223px;
-}
+
 .secondColumn {
+    display: none;
+}
+.thirdColumn {
     display: none;
 }
 
@@ -162,6 +164,7 @@ hr {
     .secondColumn {
         display: inline-block;
     }
+
 }
 
 
@@ -195,6 +198,10 @@ hr {
     .last {
         display: flex;
         justify-content: flex-start;
+    }
+
+    .thirdColumn {
+        display: inline-block;
     }
 
 }
