@@ -62,11 +62,13 @@ h3 {
 
 h4 {
     font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -.1rem;
 }
 
 h5 {
-    font-size: 28px;
-    letter-spacing: -.1rem;
+    font-size: 22px;
+    letter-spacing: -.15rem;
     font-weight: bold;
 }
 .topRow {
@@ -157,6 +159,19 @@ hr {
     display: none;
 }
 
+.lastimages {
+    height: 56px;
+    width: 56px;
+    border: 5px solid #E6E6E6;
+    margin-right: 10px;
+}
+.small-cards {
+    background-color: #F0F0F0;
+    border-style: none;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
 @media screen and (min-width: 576px) {
     .secondCard {
         display: flex;
@@ -166,7 +181,6 @@ hr {
     }
 
 }
-
 
 
 @media screen and (min-width: 768px) {
