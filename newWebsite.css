@@ -25,7 +25,7 @@ a{
     color: black;
 }
 h1, h2, h3, h4, h5 {
-    font-family: "Anton-Regular", sans-serif;
+    font-family: "Anton", sans-serif;
 }
 .icons {
     height: 18px;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5 {
 
 body{
     background-color: var(--background);
-    font-family: "Abel-Regular", sans-serif ;
+    font-family: "Abel", sans-serif ;
     font-size: 15px;
     position: relative;
 }
@@ -63,19 +63,15 @@ h2 {
 
 h3 {
     font-size: 40px;
-    font-weight: bolder;
-    letter-spacing: -.2rem;
 }
 
 h4 {
     font-size: 32px;
     font-weight: bold;
-    letter-spacing: -.1rem;
 }
 
 h5 {
     font-size: 22px;
-    font-weight: bold;
     margin-top: 3px;
 }
 .topRow {
@@ -232,6 +228,8 @@ hr {
     hr {
         display: inline-block;
         height: 2px;
+        width: 100%;
+        align-content: center;
     }
 
     .featured {
@@ -261,70 +259,11 @@ hr {
     }
     h5 {
         font-size: 22px;
-        letter-spacing: -.15rem;
     }
-}
-
-
-@media screen and (min-width: 576px) {
-    .secondCard {
-        display: flex;
-    }
-    .secondColumn {
-        display: inline-block;
+    .codeup-design{
+        padding-right: 200px;
     }
 
 }
 
 
-@media screen and (min-width: 768px) {
-    ul {
-        justify-content: space-between;
-        align-items: start;
-    }
-    .mt-sm-5 {
-        margin-top: 2.3rem!important;
-    }
-    .firstbreak {
-        margin-left: 4rem;
-    }
-    .big-circle-container {
-        justify-content: space-around!important;
-        width: 70%;
-        margin: auto;
-    }
-    hr {
-        display: inline-block;
-        height: 2px;
-    }
-
-    .featured {
-        justify-content: flex-start;
-
-    }
-
-    .last {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .thirdColumn {
-        display: inline-block;
-    }
-
-    h5 {
-        font-size: 1.5vw;
-    }
-
-
-
-}
-@media screen and (min-width: 992px) {
-    .firstbreak {
-        margin-left: 0;
-    }
-    h5 {
-        font-size: 22px;
-        letter-spacing: -.15rem;
-    }
-}
