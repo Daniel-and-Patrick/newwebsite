@@ -138,6 +138,7 @@ hr {
     background-color: #F0F0F0;
     padding-left: 0;
     padding-right: 0;
+    border-style: none;
 }
 .card {
     border-style: none;
@@ -169,17 +170,19 @@ hr {
     background-color: #F0F0F0;
     border-style: none;
     flex-direction: row;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .twitter {
     height: 30px;
     width: 30px;
+    margin-right: 10px;
 }
 .twitter-card {
     background-color: #F0F0F0;
     border-style: none;
     flex-direction: row;
 }
+
 
 @media screen and (min-width: 576px) {
     .secondCard {
