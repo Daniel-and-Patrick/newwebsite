@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5 {
 .logo {
     height: 105px;
     width: 105px;
+    z-index: 1;
 }
 
 body{
@@ -72,8 +73,8 @@ h4 {
 
 h5 {
     font-size: 22px;
-    letter-spacing: -.15rem;
     font-weight: bold;
+    margin-top: 3px;
 }
 .topRow {
     border-top-color: var(--borderColor);
@@ -182,8 +183,18 @@ hr {
     background-color: var(--background);
     border-style: none;
     flex-direction: row;
+    width: 100%;
 }
 
+/*nav {*/
+/*    background-color: #FFFFFF;*/
+/*    border-top: 50px var(--background) solid;*/
+/*}*/
+#white-bar {
+    background-color: #FFFFFF;
+    width: 100vw;
+    margin-top: 40px;
+}
 
 @media screen and (min-width: 576px) {
     .secondCard {
@@ -231,9 +242,19 @@ hr {
         display: inline-block;
     }
 
+    h5 {
+        font-size: 1.5vw;
+    }
+
+
+
 }
 @media screen and (min-width: 992px) {
     .firstbreak {
         margin-left: 0;
+    }
+    h5 {
+        font-size: 22px;
+        letter-spacing: -.15rem;
     }
 }
