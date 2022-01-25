@@ -135,6 +135,7 @@ hr {
     margin-bottom: 0;
     background-color: #F0F0F0;
     padding-left: 0;
+    padding-right: 0;
 }
 .card {
     border-style: none;
@@ -144,6 +145,24 @@ hr {
     border: 5px solid #E6E6E6;
 }
 
+.secondCard {
+    display: none;
+}
+.secondCard > .card-img-top {
+    height: 223px;
+}
+.secondColumn {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .secondCard {
+        display: flex;
+    }
+    .secondColumn {
+        display: inline-block;
+    }
+}
 
 
 
