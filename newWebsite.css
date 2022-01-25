@@ -148,7 +148,6 @@ hr {
 }
 .card-img-top {
     border: 5px solid var(--borderColor);
-    height: 223px;
 }
 
 .secondCard {
