@@ -146,7 +146,7 @@ hr {
 }
 .card-img-top {
     border: 5px solid #E6E6E6;
-    height: 223px;
+    /*height: 223px;*/
 }
 
 .secondCard {
@@ -184,6 +184,7 @@ hr {
 }
 
 
+
 @media screen and (min-width: 576px) {
     .secondCard {
         display: flex;
@@ -215,7 +216,6 @@ hr {
         display: inline-block;
         height: 2px;
     }
-
     .featured {
         justify-content: flex-start;
 
