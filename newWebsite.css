@@ -98,10 +98,14 @@ h5 {
     width: 18px;
     border-radius: 50%;
     text-align: center;
-    padding: 0;
+    font-weight: bolder;
+    padding-top: 9px;
+    padding-left: 1px;
     font-size: 8px;
     line-height: 1px;
     font-family: 'Anton-Regular', sans-serif;
+    margin-left: 1em;
+
 }
 
 .circle-text {
@@ -109,13 +113,38 @@ h5 {
     font-size: 18px;
 }
 
+
 ul {
     justify-content: center;
+    list-style: none;
 }
 
 hr {
     display: none;
 }
+
+.featured {
+    justify-content: center;
+}
+
+.last {
+    display: none;
+}
+
+.card-footer {
+    margin-bottom: 0;
+    background-color: #F0F0F0;
+    padding-left: 0;
+}
+.card {
+    border-style: none;
+    border-color: #F0F0F0;
+}
+.card-img-top {
+    border: 5px solid #E6E6E6;
+}
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -137,6 +166,16 @@ hr {
     hr {
         display: inline-block;
         height: 2px;
+    }
+
+    .featured {
+        justify-content: flex-start;
+
+    }
+
+    .last {
+        display: flex;
+        justify-content: flex-start;
     }
 
 }
