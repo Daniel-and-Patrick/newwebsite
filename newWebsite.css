@@ -1,26 +1,28 @@
-
-.design {
-    background-color: #E6563B;
+:root{
+    --red: #E6563B;
+    --green: #7CB06C;
+    --yellow: #EB9D3A;
+    --blue: #00ABA9;
+    --background: #f0f0f0;
+    --borderColor: #e6e6e6;
+}
+.design {background-color: var(--red) ;
 }
 
 .develop {
-    background-color: #EB9D3A;
+    background-color: var(--yellow);
 }
 
 .support {
-    background-color: #7CB06C;
+    background-color: var(--green);
 }
 
 .host {
-    background-color: #00ABA9;
+    background-color: var(--blue);
 }
-
-p, a {
-    font-family: "Abel-Regular", sans-serif ;
-    color: #333333;
-    font-size: 15px;
+a{
+    color: black;
 }
-
 h1, h2, h3, h4, h5 {
     font-family: "Anton-Regular", sans-serif;
 }
@@ -35,11 +37,13 @@ h1, h2, h3, h4, h5 {
 }
 
 body{
-    background-color: #F0F0F0;
+    background-color: var(--background);
+    font-family: "Abel-Regular", sans-serif ;
+    font-size: 15px;
 }
 
 .image-borders {
-    background-color: #E6E6E6;
+    background-color: var(--borderColor);
 }
 
 h1 {
@@ -72,7 +76,7 @@ h5 {
     font-weight: bold;
 }
 .topRow {
-    border-top-color: #F0F0F0;
+    border-top-color: var(--borderColor);
     border-top-width: 4em;
     margin-top: 0;
     width: 100%;
@@ -82,8 +86,6 @@ h5 {
 
 .codeup-design {
     font-size: 28px;
-    font-family: "Abel-Regular", sans-serif ;
-
 }
 
 .big-circle {
@@ -135,18 +137,18 @@ hr {
 
 .card-footer {
     margin-bottom: 0;
-    background-color: #F0F0F0;
+    background-color: var(--background);
     padding-left: 0;
     padding-right: 0;
     border-style: none;
 }
 .card {
     border-style: none;
-    border-color: #F0F0F0;
+    border-color: var(--background);
 }
 .card-img-top {
-    border: 5px solid #E6E6E6;
-    /*height: 223px;*/
+    border: 5px solid var(--borderColor);
+    height: 223px;
 }
 
 .secondCard {
@@ -163,11 +165,11 @@ hr {
 .lastimages {
     height: 56px;
     width: 56px;
-    border: 5px solid #E6E6E6;
+    border: 5px solid var(--borderColor);
     margin-right: 10px;
 }
 .small-cards {
-    background-color: #F0F0F0;
+    background-color: var(--background);
     border-style: none;
     flex-direction: row;
     margin-bottom: 35px;
@@ -178,11 +180,10 @@ hr {
     margin-right: 10px;
 }
 .twitter-card {
-    background-color: #F0F0F0;
+    background-color: var(--background);
     border-style: none;
     flex-direction: row;
 }
-
 
 
 @media screen and (min-width: 576px) {
@@ -216,6 +217,7 @@ hr {
         display: inline-block;
         height: 2px;
     }
+
     .featured {
         justify-content: flex-start;
 
